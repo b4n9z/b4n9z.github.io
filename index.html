@@ -1,60 +1,246 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>b4n9z | Java Developer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <meta name="description" content="Portfolio of b4n9z — Java & (Bukkit, Spigot, Paper) Plugin Developer. Explore my projects and open-source work.">
-    <meta name="keywords" content="b4n9z, Java Developer, Bukkit, Spigot, Paper, Minecraft Plugin, GitHub, Portfolio">
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="Portofolio b4n9z — Java Developer & Bukkit, Spigot, Paper Minecraft Plugin Developer. Showcase of plugins, projects, and open-source work.">
+    <meta name="keywords" content="b4n9z, Java Developer, Bukkit, Spigot, Paper Minecraft Plugin, GitHub, Portfolio">
     <meta name="author" content="b4n9z">
+
+    <!-- PAGE TITLE -->
+    <title>b4n9z - Minecraft Plugin Developer</title>
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 
-<body class="bg-dark text-light">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="#">b4n9z</a>
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
+<body>
+    <!-- PRELOADER -->
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+    <!-- /PRELOADER -->
 
-    <section id="hero" class="text-center py-5">
-        <h1 class="display-4 fw-bold">Hi, I'm <span class="text-info">b4n9z</span></h1>
-        <p class="lead">Java Developer | Spigot Plugin Creator | Open Source Enthusiast</p>
-    </section>
+    <!-- IMAGE CONTAINER -->
+    <div class="image-container">
+        <div class="background-img active" style="background-image: url('assets/img/bg1.png');"></div>
+        <div class="background-img" style="background-image: url('assets/img/bg2.png');"></div>
+        <div class="background-img" style="background-image: url('assets/img/bg3.png');"></div>
+        <div class="background-img" style="background-image: url('assets/img/bg4.png');"></div>
+        <div class="background-img" style="background-image: url('assets/img/bg5.png');"></div>
+        <div class="background-img" style="background-image: url('assets/img/bg6.png');"></div>
+    </div>
+    <!-- /IMAGE CONTAINER -->
 
-    <section id="projects" class="container py-5">
-        <h2 class="mb-4 text-warning">Featured Projects</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card bg-secondary text-light mb-4">
-                    <div class="card-body">
-                        <h5 class="card-title">DeathPulse</h5>
-                        <p class="card-text">A unique plugin that modifies player health mechanics upon death.</p>
-                        <a href="https://github.com/b4n9z/DeathPulse" class="btn btn-info btn-sm">View on GitHub</a>
+    <!-- CONTENT AREA -->
+    <div class="content-area">
+        <!-- CONTENT AREA INNER -->
+        <div class="content-area-inner">
+            <!-- INTRO -->
+            <section id="intro">
+                <!-- CONTAINER MID -->
+                <div class="container-mid">
+                    <!-- ANIMATION CONTAINER -->
+                    <div class="animation-container animation-fade-right" data-animation-delay="0">
+                        <h1>I’m b4n9z and I develop Minecraft plugins</h1>
                     </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card bg-secondary text-light mb-4">
-                    <div class="card-body">
-                        <h5 class="card-title">VitalVials</h5>
-                        <p class="card-text">Advanced player health management system for Spigot servers.</p>
-                        <a href="https://github.com/b4n9z/VitalVials" class="btn btn-info btn-sm">View on GitHub</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+                    <!-- /ANIMATION CONTAINER -->
 
-    <footer class="text-center py-3 bg-black mt-5">
-        <small>© 2025 b4n9z — Made with ❤️ using Bootstrap</small>
-    </footer>
+                    <!-- ANIMATION CONTAINER -->
+                    <div class="animation-container animation-fade-right" data-animation-delay="200">
+                        <a href="#about" class="smooth-scroll">Learn More<div class="circle"><i class="fa fa-angle-down" aria-hidden="true"></i><i class="fa fa-angle-down" aria-hidden="true"></i></div></a>
+                    </div>
+                    <!-- /ANIMATION CONTAINER -->
+                </div>
+                <!-- /CONTAINER MID -->
+            </section>
+            <!-- /INTRO -->
+
+            <!-- ABOUT -->
+            <section id="about">
+                <h3 class="headline scroll-animated">About Me</h3>
+                <p class="scroll-animated">Hey there! I'm Agung Budi (b4n9z), a passionate developer focused on pushing the envelope of Minecraft PVP and Survival mechanics on Bukkit, Spigot, and Paper. My driving force isn't just writing lines of code; it's the thrill of designing and implementing entirely new game mechanics that are stable, engaging, and genuinely fun. I specialize in turning ambitious conceptual ideas into polished server-side reality. This portfolio showcases my commitment to imaginative design and high-quality Plugin Minecraft Java development within the server ecosystem.</p>
+                <p class="scroll-animated">What truly sets my work apart is the relentless focus on flexibility and customization. My ultimate goal for every plugin is to ensure that server owners have the power to tailor every aspect of the new mechanic, making it perfectly fit their unique server environment. This strong creative drive and dedication to user-centric design is what defines my projects. I'm always eager to connect with fellow enthusiasts, contribute to innovative ideas, and explore new ways to enrich the server experience. If you’re looking for a developer who can transform a bold concept into a dynamic, highly-configurable reality, feel free to reach out!</p>
+                <!-- PLATFORMS -->
+                <div class="row platform scroll-animated">
+                    <div class="col-md-3 col-xs-6"><a href="https://www.curseforge.com/members/b4n9z/projects" target="_blank"><img class="img-responsive" src="assets/img/platforms/platform-1.png" alt="client"></a></div>
+                    <div class="col-md-3 col-xs-6"><a href="https://www.spigotmc.org/members/b4n9z.2166534" target="_blank"><img class="img-responsive" src="assets/img/platforms/platform-2.png" alt="client"></a></div>
+                    <div class="col-md-3 col-xs-6"><a href="https://modrinth.com/user/b4n9z" target="_blank"><img class="img-responsive" src="assets/img/platforms/platform-3.png" alt="client"></a></div>
+                    <div class="col-md-3 col-xs-6"><a href="https://hangar.papermc.io/b4n9z" target="_blank"><img class="img-responsive" src="assets/img/platforms/platform-4.png" alt="client"></a></div>
+                </div>
+                <!-- /PLATFORMS -->
+            </section>
+            <!-- /ABOUT -->
+            
+            <!-- SERVICE -->
+            <section id="service">
+                <h3 class="headline scroll-animated">Services</h3>
+                <!-- SERVICE LIST -->
+                <ul class="services-list">
+                    <!-- SERVICE ITEM -->
+                    <li class="service-item scroll-animated">
+                        <button class="btn btn-primary collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapse-item-1" aria-expanded="false">Custom Gameplay Mechanics Development</button>
+                        <!-- COLLAPSE CONTENT -->
+                        <div class="collapse" id="collapse-item-1">
+                            <!-- COLLAPSE CONTENT INNER -->
+                            <div class="well">
+                                <p> Designing and implementing complex, server-side game mechanics for the Bukkit, Spigot, and Paper platforms. This service goes beyond simple configuration; it involves creating entirely new PVP and Survival systems that require deep architectural understanding of Java and the Minecraft ecosystem to ensure stability and seamless integration.</p>
+                            </div>
+                            <!-- /COLLAPSE CONTENT INNER -->
+                        </div>
+                        <!-- /COLLAPSE CONTENT -->
+                    </li>
+                    <!-- /SERVICE ITEM -->
+
+                    <!-- SERVICE ITEM -->
+                    <li class="service-item scroll-animated">
+                        <button class="btn btn-primary collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapse-item-2" aria-expanded="false">High-Flexibility System Architecture</button>
+                        <!-- COLLAPSE CONTENT -->
+                        <div class="collapse" id="collapse-item-2">
+                            <!-- COLLAPSE CONTENT INNER -->
+                            <div class="well">
+                                <p> Developing plugins with a strong focus on user-centric design and high configurability. Every feature is architected to be easily customizable by server administrators, ensuring maximum adaptability to various server needs and allowing owners full control over gameplay tuning and balance without altering the core code.</p>
+                            </div>
+                            <!-- /COLLAPSE CONTENT INNER -->
+                        </div>
+                        <!-- /COLLAPSE CONTENT -->
+                    </li>
+                    <!-- /SERVICE ITEM -->
+
+                    <!-- SERVICE ITEM -->
+                    <li class="service-item scroll-animated">
+                        <button class="btn btn-primary collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapse-item-3" aria-expanded="false">Performance Optimization & Stability</button>
+                        <!-- COLLAPSE CONTENT -->
+                        <div class="collapse" id="collapse-item-3">
+                            <!-- COLLAPSE CONTENT INNER -->
+                            <div class="well">
+                                <p> Ensuring the developed features are not only powerful but also highly optimized for server performance. This involves writing clean, efficient Java code, rigorous testing to prevent latency issues, and implementing best practices to guarantee long-term stability across different versions of the Minecraft server software.</p>
+                            </div>
+                            <!-- /COLLAPSE CONTENT INNER -->
+                        </div>
+                        <!-- /COLLAPSE CONTENT -->
+                    </li>
+                    <!-- /SERVICE ITEM -->
+                </ul>
+                <!-- /SERVICE LIST -->
+            </section>
+            <!-- /SERVICE -->
+
+            <!-- WORK -->
+            <section id="work">
+                <h3 class="headline scroll-animated">Latest Work</h3>
+                <!-- SHOWCASE -->
+                <div class="showcase">
+                    <!-- ITEM -->
+                    <div class="item scroll-animated black-bg">
+                        <!-- LIGHTBOX LINK -->
+                        <a href="#" data-featherlight="#item-1-lightbox">
+                            <!-- INFO -->
+                            <div class="info">
+                                <!-- CONTAINER MID -->
+                                <div class="container-mid">
+                                    <h5>DeathPulse</h5>
+                                    <p>Core Survival Mechanic</p>
+                                </div>
+                                <!-- /CONTAINER MID -->
+                            </div>
+                            <!-- /INFO -->
+                            <div class="background-image" style="background-image: url(assets/img/work/item-1.jpg)">
+                            </div>
+                        </a>
+                        <!-- /LIGHTBOX LINK -->
+
+                        <!-- LIGHTBOX -->
+                        <div id="item-1-lightbox" class="work-lightbox">
+                            <img class="img-responsive" src="assets/img/work/item-1.jpg" alt="DeathPulse image">
+                            <h3>DeathPulse</h3>
+                            <p class="subline">A Dynamic Health Modification System</p>
+                            <p>
+                                <b>Project Overview:</b> DeathPulse is a powerful Minecraft plugin designed to fundamentally enhance survival and PVP gameplay by implementing a <b>dynamic health modification mechanic</b> upon player death. Server administrators can configure player health to be gained or lost specifically based on the <b>type of death</b> the player experiences, introducing a unique and challenging risk/reward system to the server.
+                            </p>
+                            <p>
+                                <b>Advanced Features & Customization:</b> The flexibility of DeathPulse is its core strength. Beyond granular configuration for various death types, the plugin includes a fully custom <b>Health Item System</b>, allowing players to actively manage their maximum health through a configurable in-game item. It also provides comprehensive <b>administrative commands</b> for advanced control, including health matching, transferring, and configuration reloading, ensuring server owners have total mastery over this complex survival mechanic.
+                            </p>
+                        </div>
+                        <!-- /LIGHTBOX -->
+                    </div>
+                    <!-- /ITEM -->
+
+                    <!-- ITEM -->
+                    <div class="item scroll-animated white-bg">
+                        <!-- LIGHTBOX LINK -->
+                        <a href="#" data-featherlight="#item-2-lightbox">
+                            <!-- INFO -->
+                            <div class="info">
+                                <!-- CONTAINER MID -->
+                                <div class="container-mid">
+                                    <h5>VitalVials</h5>
+                                    <p>Advanced Combat & Store Mechanic</p>
+                                </div>
+                                <!-- /CONTAINER MID -->
+                            </div>
+                            <!-- /INFO -->
+                            <div class="background-image" style="background-image: url(assets/img/work/item-2.jpg)">
+                            </div>
+                        </a>
+                        <!-- /LIGHTBOX LINK -->
+
+                        <!-- LIGHTBOX -->
+                        <div id="item-2-lightbox" class="work-lightbox">
+                            <img class="img-responsive" src="assets/img/work/item-2.jpg" alt="VitalVials image">
+                            <h3>VitalVials</h3>
+                            <p class="subline">Configurable Effect & Max Health Shop</p>
+                            <p>
+                                <b>Project Overview:</b> VitalVials is a groundbreaking plugin that introduces a <b>Health-Based Economy</b> to Minecraft. It transforms maximum player health or current health points into a valuable, dynamic currency, allowing players to strategically <b>trade their vitality for powerful, temporary effects</b>. This system forces players to constantly weigh the risk of reduced health against the immediate combat advantage of the purchased effects.
+                            </p>
+                            
+                            <p>
+                                <b>Extreme Customization & Technical Depth:</b> True to my design philosophy, VitalVials is <b>fully configurable</b> down to the smallest detail. Server owners can customize every effect, cost, and mechanic. The system features advanced configuration to control <b>effect activation based on the item held and the player's action</b> (e.g., right-click, left-click, hitting an enemy, or being hit). Furthermore, the plugin includes a dynamic, player-specific <b>Scoreboard</b> for real-time effect tracking and a robust <b>Cooldown System</b> to maintain game balance.
+                            </p>
+                        </div>
+                        <!-- /LIGHTBOX -->
+                    </div>
+                    <!-- /ITEM -->
+                </div>
+                <!-- /SHOWCASE -->
+            </section>
+            <!-- /WORK -->
+
+            <!-- FOOTER -->
+            <section id="footer">
+                <p class="scroll-animated">© 2025 b4n9z | Agung Budi</p>
+            </section>
+            <!-- /FOOTER -->
+        </div>
+        <!-- /CONTENT AREA INNER -->
+    </div>
+    <!-- /CONTENT AREA -->
+
+    <!-- JAVASCRIPTS -->
+    <script type="text/javascript" src="assets/js/plugins.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const backgrounds = document.querySelectorAll('.background-img');
+            let index = 0;
+
+            setInterval(() => {
+                backgrounds[index].classList.remove('active');
+                index = (index + 1) % backgrounds.length;
+                backgrounds[index].classList.add('active');
+            }, 10000); // ganti gambar tiap 8 detik
+        });
+    </script>
 </body>
-
 </html>

@@ -25,15 +25,22 @@
     <!-- PAGE TITLE -->
     <title>b4n9z - Minecraft Plugin Developer</title>
 
+    <!-- CANONICAL -->
+    <link rel="canonical" href="https://b4n9z.github.io/" />
+
     <!-- FAVICON -->
     <link rel="shortcut icon" href="assets/img/favicon.png">
 
     <!-- FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
 
-    <!-- STYLESHEETS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- STYLESHEETS (Preload CSS agar tidak menghambat rendering) -->
+    <link rel="preload" href="assets/css/plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/css/plugins.css"></noscript>
+
+    <link rel="preload" href="assets/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="assets/css/main.css"></noscript>
+
 
     <script type="application/ld+json">
         {
@@ -119,11 +126,11 @@
                 </p>
                 <!-- PLATFORMS -->
                 <div class="row platform scroll-animated">
-                    <div class="col-md-3 col-xs-6"><a href="https://www.curseforge.com/members/b4n9z/projects" target="_blank"><img class="img-responsive" src="assets/img/platforms/platform-1.webp" alt="CurseForge profile of b4n9z - Minecraft Plugin Developer"></a></div>
-                    <div class="col-md-3 col-xs-6"><a href="https://www.spigotmc.org/members/b4n9z.2166534" target="_blank"><img class="img-responsive" src="assets/img/platforms/platform-2.webp" alt="SpigotMC profile of b4n9z - Minecraft Plugin Developer"></a></div>
-                    <div class="col-md-3 col-xs-6"><a href="https://modrinth.com/user/b4n9z" target="_blank"><img class="img-responsive" src="assets/img/platforms/platform-3.webp" alt="Modrinth profile of b4n9z - Minecraft Plugin Developer"></a></div>
-                    <div class="col-md-3 col-xs-6"><a href="https://hangar.papermc.io/b4n9z" target="_blank"><img class="img-responsive" src="assets/img/platforms/platform-4.png" alt="PaperMC Hangar profile of b4n9z - Minecraft Plugin Developer"></a></div>
-                    <!-- <div class="col-md-3 col-xs-6"><a href="https://dev.bukkit.org/members/b4n9z/reputation" target="_blank"><img class="img-responsive" src="assets/img/platforms/platform-5.webp" alt="Bukkit profile of b4n9z - Minecraft Plugin Developer"></a></div> -->
+                    <div class="col-md-3 col-xs-6"><a href="https://www.curseforge.com/members/b4n9z/projects" target="_blank" rel="noopener noreferrer"><img class="img-responsive" src="assets/img/platforms/platform-1.webp" alt="CurseForge profile of b4n9z - Minecraft Plugin Developer"></a></div>
+                    <div class="col-md-3 col-xs-6"><a href="https://www.spigotmc.org/members/b4n9z.2166534" target="_blank" rel="noopener noreferrer"><img class="img-responsive" src="assets/img/platforms/platform-2.webp" alt="SpigotMC profile of b4n9z - Minecraft Plugin Developer"></a></div>
+                    <div class="col-md-3 col-xs-6"><a href="https://modrinth.com/user/b4n9z" target="_blank" rel="noopener noreferrer"><img class="img-responsive" src="assets/img/platforms/platform-3.webp" alt="Modrinth profile of b4n9z - Minecraft Plugin Developer"></a></div>
+                    <div class="col-md-3 col-xs-6"><a href="https://hangar.papermc.io/b4n9z" target="_blank" rel="noopener noreferrer"><img class="img-responsive" src="assets/img/platforms/platform-4.png" alt="PaperMC Hangar profile of b4n9z - Minecraft Plugin Developer"></a></div>
+                    <!-- <div class="col-md-3 col-xs-6"><a href="https://dev.bukkit.org/members/b4n9z/reputation" target="_blank" rel="noopener noreferrer"><img class="img-responsive" src="assets/img/platforms/platform-5.webp" alt="Bukkit profile of b4n9z - Minecraft Plugin Developer"></a></div> -->
                 </div>
                 <!-- /PLATFORMS -->
             </section>

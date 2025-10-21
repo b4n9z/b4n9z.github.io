@@ -15,15 +15,13 @@
   <script>
     window.$docsify = {
       name: 'DeathPulse',
-      repo: 'https://github.com/b4n9z/b4n9z.github.io',
-      // basePath: '/deathpulse-docs',
-      loadSidebar: true,
-      loadNavbar: true,
+      repo: 'https://github.com/b4n9z/DeathPulse',
+      loadSidebar: 'sidebar.md',
+      loadNavbar: 'navbar.md',
       subMaxLevel: 2,
-      // basePath: 'https://raw.githubusercontent.com/b4n9z/b4n9z.github.io/refs/heads/main/deathpulse-docs/',
       alias: {
-        '/.*/_sidebar.md': '/_sidebar.md',
-        '/.*/_navbar.md': '/_navbar.md'
+        '/.*/sidebar.md': '/sidebar.md',
+        '/.*/navbar.md': '/navbar.md'
       },
       themeColor: '#c0392b',
       search: {

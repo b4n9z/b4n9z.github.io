@@ -47,7 +47,8 @@ jobs:
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           mkdir -p deathpulse-docs/prerendered
-          cp -r deathpulse-docs/prerendered/* deathpulse-docs/
+          mkdir -p deathpulse-docs/static
+          cp -r deathpulse-docs/prerendered/* deathpulse-docs/static/
           rm -rf deathpulse-docs/prerendered
           git add deathpulse-docs/
           git commit -m "Update prerendered DeathPulse Docs [skip ci]" || echo "No changes to commit"

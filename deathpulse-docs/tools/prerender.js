@@ -28,7 +28,7 @@ const routes = [
                 ? 'index.html'
                 : route.replace('/#/', '').replace(/^\//, '') + '/index.html';
 
-        const outFile = path.join('prerendered', outPath);
+        const outFile = path.join('static', outPath);
         await fs.outputFile(outFile, html);
         console.log('✔ Saved:', outFile);
     }

@@ -36,8 +36,8 @@ jobs:
       - name: Generate sitemap
         run: node tools/generate-sitemap.js
 
-      - name: Deploy to main branch (subfolder /deathpulse-docs)
-        uses: peaceiris/actions-main@v4
+      - name: Deploy to branch (main branch)
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: deathpulse-docs/prerendered

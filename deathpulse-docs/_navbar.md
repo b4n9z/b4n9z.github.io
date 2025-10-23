@@ -2,4 +2,3 @@
 * [📜 Changelog](2.0.0/changelog.md)
 * [❓ FAQ](2.0.0/faq.md)
 * [⚙️ Installation](2.0.0/installation.md)
-* [📘 GitHub](https://github.com/b4n9z/DeathPulse)

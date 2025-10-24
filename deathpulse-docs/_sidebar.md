@@ -9,8 +9,8 @@
 <!-- - **Gameplay Mechanics**
   - [Health System Overview](2.0.0/README.md)
   - [Death Types](2.0.0/death-types.md)
-  - [Health Items](2.0.0/health-items.md)
+  - [Health Items](2.0.0/health-items.md) -->
 
-- **Resources**
+- **Reference & Update**
   - [FAQ](2.0.0/faq.md)
-  - [Changelog](2.0.0/changelog.md) -->
+  - [Changelog](2.0.0/changelog.md)

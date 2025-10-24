@@ -1,6 +1,6 @@
 # **DeathPulse — The Art of Strategic Death**
 <p align="left">
-  <img src="../assets/img/work/item-1.webp" alt="DeathPulse Logo" width="200" style="border-radius:12px;">
+  <img src="../assets/img/deathpulse_icon_big.webp" alt="DeathPulse Logo" width="200" height="200" style="border-radius:12px;" loading="lazy">
 </p>
 
 **DeathPulse** is a revolutionary Minecraft plugin that redefines what death means in survival gameplay.

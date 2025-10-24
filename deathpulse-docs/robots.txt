@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://b4n9z.github.io/deathpulse-docs/static/sitemap.xml
+Sitemap: https://b4n9z.github.io/deathpulse-docs/sitemap.xml

@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "fs-extra": "^11.3.2",
-    "puppeteer": "^22.15.0"
-  }
-}

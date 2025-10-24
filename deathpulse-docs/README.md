@@ -1,4 +1,4 @@
-## **DeathPulse — The Art of Strategic Death**
+# **DeathPulse — The Art of Strategic Death**
 
 **DeathPulse** is a revolutionary Minecraft plugin that redefines what death means in survival gameplay.
 In traditional Minecraft, death marks failure — a setback that resets progress. With DeathPulse, however, every death becomes an opportunity.

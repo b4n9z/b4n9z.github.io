@@ -121,3 +121,9 @@ If the issue persists, delete the config to regenerate it and reapply your custo
 ---
 
 > 💡 For more detailed technical help, visit the [DeathPulse GitHub Repository](https://github.com/b4n9z/DeathPulse/issues) and open a ticket with your configuration and console log.
+
+---
+<div class="nav-buttons">
+  <a href="#/2.0.0/configuration?id=configuration-guide" class="nav-button">⬅ Previous: Configuration Guide</a>
+  <a href="#/2.0.0/changelog?id=🧾-changelog-version-200" class="nav-button">Next: Changelog ➡</a>
+</div>

@@ -469,3 +469,9 @@ Displayed in the console or admin logs for tracking and moderation purposes.
 | **`defaultDeathMessage`** | *Boolean* | `false` | Controls whether Minecraft’s built-in death messages are displayed to others. When set to `false`, DeathPulse replaces it by not displaying it. |
 
 > 💬 *For immersive gameplay, it’s recommended to keep `defaultDeathMessage: false` so another player don't knowing you die.
+
+---
+<div class="nav-buttons">
+  <a href="#/2.0.0/commands?id=command-reference-guide" class="nav-button">⬅ Previous: Command Reference Guide</a>
+  <a href="#/2.0.0/faq?id=❓-frequently-asked-questions-faq" class="nav-button">Next: FAQ ➡</a>
+</div>

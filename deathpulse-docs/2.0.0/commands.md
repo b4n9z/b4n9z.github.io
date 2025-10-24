@@ -228,3 +228,9 @@ These allow players to share or manage health between one another — a unique f
 | `dp.transferHealth`  | Allows transferring HP to another player.        | All Players    |
 | `dp.withdrawHealth`  | Allows converting HP into Health Items.          | All Players    |
 | `dp.help`            | Displays command help list.                      | All Players    |
+
+---
+<div class="nav-buttons">
+  <a href="#/2.0.0/installation?id=installation-guide" class="nav-button">⬅ Previous: Installation</a>
+  <a href="#/2.0.0/configuration?id=configuration-guide" class="nav-button">Next: Configuration Guide ➡</a>
+</div>

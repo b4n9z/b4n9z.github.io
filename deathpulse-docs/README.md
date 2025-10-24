@@ -1,4 +1,7 @@
 # **DeathPulse — The Art of Strategic Death**
+<p align="left">
+  <img src="../assets/img/work/item-1.webp" alt="DeathPulse Logo" width="200" style="border-radius:12px;">
+</p>
 
 **DeathPulse** is a revolutionary Minecraft plugin that redefines what death means in survival gameplay.
 In traditional Minecraft, death marks failure — a setback that resets progress. With DeathPulse, however, every death becomes an opportunity.
@@ -91,3 +94,8 @@ It’s the pulse that drives your world forward — one beat, one death, one evo
 > **Redefine death.**
 > **Redefine survival.**
 > **Embrace the pulse.**
+
+---
+<div class="nav-single">
+  <a href="#/2.0.0/installation?id=installation-guide" class="nav-button">Next: Installation ➡</a>
+</div>

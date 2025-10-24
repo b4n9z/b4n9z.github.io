@@ -126,3 +126,9 @@ To upgrade, backup or remove `config.yml` from `/plugins/DeathPulse/` first *( o
 
 DeathPulse is now fully installed on your server.
 From here, you can explore advanced customization options — such as adjusting health behaviors, creating seasonal death systems, and fine-tuning player permissions — to make your server’s gameplay experience truly unique.
+
+---
+<div class="nav-buttons">
+  <a href="#/README?id=deathpulse-the-art-of-strategic-death" class="nav-button">⬅ Previous: Introduction</a>
+  <a href="#/2.0.0/commands?id=command-reference-guide" class="nav-button">Next: Command Reference Guide ➡</a>
+</div>

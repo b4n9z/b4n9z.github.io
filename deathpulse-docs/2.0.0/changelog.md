@@ -56,3 +56,8 @@
 >  
 > 🔗 **Full release history and downloads:**  
 > [DeathPulse GitHub Releases](https://github.com/b4n9z/DeathPulse/releases)
+
+---
+<div class="nav-single">
+  <a href="#/2.0.0/faq?id=❓-frequently-asked-questions-faq" class="nav-button">⬅ Previous: FAQ</a>
+</div>
